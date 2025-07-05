@@ -1,18 +1,54 @@
-# This is the Campus Cart app
-## Concept:- 
-  This app is designed specifically for college student for selling there used item among the students of the college 
-## Features:-
-  1. Diffrent account for student
-  2. Cart and favourite functionality
-  3. In app payment using RazorPay
-  4. Catergory wise sorting off items
-  5. User can sell and also buy item from it
-  6. Interactive and simple UI
-  7. Data security
-## Tech
-  1. For Authentication utilised firebase auth
-  2. For Data storage utilised firestore
-  3. MVVM achitecture
-  4. For UI utilised *JETPACK COMPOSE*
-  5. For payment used *Razopay* API
-  6. 
+# 🛒 Campus Cart
+
+**Campus Cart** is a mobile application designed specifically for **college students** to buy and sell used items within their campus. It fosters a trusted environment for seamless, secure, and student-to-student transactions.
+
+---
+
+## 📱 Concept
+
+Campus Cart provides a platform where students can easily list and browse second-hand products like books, electronics, cycles, accessories, etc., creating a **campus-exclusive marketplace**.
+
+---
+
+## 🚀 Features
+
+- 👤 **Student Account System**  
+  Unique accounts for students ensure a safe and secure environment.
+
+- ❤️ **Favorites & Cart Functionality**  
+  Easily save products to your favorites or cart for convenient access.
+
+- 💳 **In-App Payment Integration**  
+  Payments are securely processed via **Razorpay**.
+
+- 🗂️ **Category-Based Item Sorting**  
+  Browse items sorted by categories like Books, Electronics, Furniture, etc.
+
+- 🔄 **Sell & Buy Functionality**  
+  Students can both list items for sale and purchase others’ items.
+
+- 🎨 **Interactive & Clean UI**  
+  Built with **Jetpack Compose** for a modern and intuitive design.
+
+- 🔒 **Secure Data Handling**  
+  Ensures data safety with **Firebase Authentication** and **Firestore**.
+
+---
+
+## 🛠️ Tech Stack
+
+| Functionality     | Technology Used          |
+|-------------------|--------------------------|
+| 🔐 Authentication | Firebase Auth            |
+| ☁️ Database       | Firebase Firestore       |
+| 🧠 Architecture    | MVVM                     |
+| 🎨 UI Framework   | Jetpack Compose          |
+| 💳 Payment API    | Razorpay                 |
+
+---
+
+## 🔧 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/CampusCart.git
